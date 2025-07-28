@@ -10,6 +10,8 @@ public class MySingletonUsage {
         mySingle.showBook();
         AnarPattners objectanar = AnarPattners.getInstance();
         objectanar.showMessage();
+        SingletonPattners object = SingletonPattners.getInstance();
+        object.Odenis(100);
 
     }
 }
