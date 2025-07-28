@@ -7,10 +7,10 @@ public class MySingleton {
     }
 
     public static MySingleton getInstance() {
-        if (instance == null) {
-            instance = new MySingleton();
+        if (instance == null) { // daha evvel obyektin yaranib yaranmamasini  yoxlayir;
+            instance = new MySingleton(); // eger yuxaridaki setr true olarsa obyekt yaranmayibsa yeni obyekti yaradir
         }
-        return instance;
+        return instance; // MySingleton obyektini bize qaytaracaq
     }
 
     public void showMessage() {

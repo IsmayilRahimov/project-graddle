@@ -12,6 +12,11 @@ public class MySingletonUsage {
         objectanar.showMessage();
         SingletonPattners object = SingletonPattners.getInstance();
         object.Odenis(100);
+        object.Odenis(200);
+        StrategyPay object2 = new StrategyPay();
+        object2.pay(100);
+        AzerIsiq object3 = new AzerIsiq();
+        object3.pay(100);
 
     }
 }
