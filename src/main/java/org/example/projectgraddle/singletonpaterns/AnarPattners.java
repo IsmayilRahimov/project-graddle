@@ -1,4 +1,4 @@
-package org.example.projectgraddle.singletonpattners;
+package org.example.projectgraddle.singletonpaterns;
 
 public class AnarPattners {
     private static AnarPattners instance;

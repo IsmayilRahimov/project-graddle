@@ -1,6 +1,6 @@
-package org.example.projectgraddle.designpattners;
+package org.example.projectgraddle.designpatterns;
 
-import org.example.projectgraddle.singletonpattners.AnarPattners;
+import org.example.projectgraddle.singletonpaterns.AnarPattners;
 
 public class MySingletonUsage {
     public static void main(String[] args) {

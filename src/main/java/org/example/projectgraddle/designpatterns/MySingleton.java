@@ -1,4 +1,4 @@
-package org.example.projectgraddle.designpattners;
+package org.example.projectgraddle.designpatterns;
 
 public class MySingleton {
     private static MySingleton instance;

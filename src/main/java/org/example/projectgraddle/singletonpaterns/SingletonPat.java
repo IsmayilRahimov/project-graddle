@@ -1,4 +1,4 @@
-package org.example.projectgraddle.singletonpattners;
+package org.example.projectgraddle.singletonpaterns;
 
 public class SingletonPat {
     private static SingletonPat instance;
